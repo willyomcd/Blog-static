@@ -120,6 +120,17 @@ body {
 .post p, .empty-state { font-size: 1.1rem; line-height: 1.65; }
 .empty-state { color: #c1ccda; }
 
+.video-embed {
+  aspect-ratio: 16 / 9;
+  margin-top: 1rem;
+}
+
+.video-embed iframe {
+  border: 0;
+  height: 100%;
+  width: 100%;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .parallax { perspective: none; }
