@@ -17,14 +17,13 @@ body {
 .hero {
   height: 100svh;
   min-height: 36rem;
-  overflow: hidden;
   position: relative;
 }
 
 .parallax {
   height: 110vh;
   margin-top: -10vh;
-  overflow: hidden;
+  overflow-x: hidden;
   perspective: 80px;
   position: relative;
   width: 100%;
